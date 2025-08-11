@@ -14,9 +14,9 @@ import CountUp from 'react-countup';
 
 export default function Project() {
   const bannerImages = [
-    "/images/banner.png",
-    "/images/banner.png",
-    "/images/banner.png"
+    "/src/images/banner.png",
+    "/src/images/banner.png",
+    "/src/images/banner.png"
   ];
 
   const bannerSettings = {
@@ -34,7 +34,7 @@ export default function Project() {
       <header className={style.mainHeader}>
         <div className={style.topBar}>
           <div className={style.logo}>
-            <img src="/images/logo.png" alt="Logo" />
+            <img src="/src/images/logo.png" alt="Logo" />
           </div>
 
           <nav className={style.navBar}>
@@ -45,9 +45,9 @@ export default function Project() {
               <a href=""><li>Contact</li></a>
             </ul>
             <div className={style.orgLogos}>
-              <a href=""><img src="/images/frame.png" alt="Org1" /></a>
-              <a href=""><img src="/images/frame1.png" alt="Org2" /></a>
-              <a href=""><img src="/images/frame2.png" alt="Org3" /></a>
+              <a href=""><img src="/src/images/frame.png" alt="Org1" /></a>
+              <a href=""><img src="/src/images/frame1.png" alt="Org2" /></a>
+              <a href=""><img src="/src/images/frame2.png" alt="Org3" /></a>
             </div>
           </nav>
         </div>
@@ -143,7 +143,7 @@ export default function Project() {
         <div className={style.aboutSection}>
 
           <div className={style.imageGrid}>
-            <img src="/images/about-img.png" alt="" />
+            <img src="/src/images/about-img.png" alt="" />
           </div>
 
 
@@ -186,16 +186,16 @@ export default function Project() {
           <a href=""><button>View ALL →</button></a>
         </div>
         <div className={style.hulkimg}>
-          <div><img src="/images/image (2).png" alt="" /></div>
-          <div><img src="/images/image-1 (2).png" alt="" /></div>
-          <div><img src="/images/image-3.png" alt="" /></div>
-          <div><img src="/images/image-4.png" alt="" /></div>
-          <div><img src="/images/image-5.png" alt="" /></div>
-          <div><img src="/images/image-5.png" alt="" /></div>
-          <div><img src="/images/image-6.png" alt="" /></div>
-          <div><img src="/images/image-7.png" alt="" /></div>
-          <div><img src="/images/image-8.png" alt="" /></div>
-          <div><img src="/images/image-9.png" alt="" /></div>
+          <div><img src="/src/images/image (2).png" alt="" /></div>
+          <div><img src="/src/images/image-1 (2).png" alt="" /></div>
+          <div><img src="/src/images/image-3.png" alt="" /></div>
+          <div><img src="/src/images/image-4.png" alt="" /></div>
+          <div><img src="/src/images/image-5.png" alt="" /></div>
+          <div><img src="/src/images/image-5.png" alt="" /></div>
+          <div><img src="/src/images/image-6.png" alt="" /></div>
+          <div><img src="/src/images/image-7.png" alt="" /></div>
+          <div><img src="/src/images/image-8.png" alt="" /></div>
+          <div><img src="/src/images/image-9.png" alt="" /></div>
         </div>
 
 
